@@ -25,7 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            " ShaoZeMing\\LaravelTranslate\\": "src/"
+            " ShaoZeMing\\LaravelTranslate\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaoZeMing\\LaravelTranslate\\Test\\": "./tests/"
         }
     },
     "minimum-stability":"dev"
