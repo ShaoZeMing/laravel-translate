@@ -6,6 +6,10 @@
         "laravel/framework": "~5.0",
         "shaozeming/translate": "^1.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
     "license": "MIT",
     "authors": [
         {
