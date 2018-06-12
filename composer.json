@@ -1,0 +1,33 @@
+{
+    "name": "shaozeming/laravel-translate",
+    "description": "一个集成百度翻译，有道翻译，Google翻译的PHP composer package  for laravel5.* and lumen",
+    "type": "library",
+    "require": {
+        "laravel/framework": "~5.0",
+        "shaozeming/translate": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShaoZeMing",
+            "email": "szm19920426@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShaoZeMing\\LaravelTranslate\\TranslateServiceProvider"
+            ],
+            "aliases": {
+                "Translate": "ShaoZeMing\\LaravelTranslate\\Facade\\Translate"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            " ShaoZeMing\\LaravelTranslate\\": "src/"
+        }
+    },
+    "minimum-stability":"dev"
+
+}
