@@ -1,7 +1,9 @@
 # Translate  for laravel5.*  or  lumen
 
 ---
-[![Build Status](https://travis-ci.org/ShaoZeMing/laravel-translate.svg?branch=master)](https://travis-ci.org/ShaoZeMing/laravel-translate) [![Latest Stable Version](https://img.shields.io/packagist/v/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/shaozeming/laravel-translate) [![Total Downloads](https://img.shields.io/packagist/dt/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/stichoza/shaozeming/laravel-translate) [![Downloads Month](https://img.shields.io/packagist/dm/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/shaozeming/laravel-translate)
+[![](https://travis-ci.org/ShaoZeMing/laravel-translate.svg?branch=master)](https://travis-ci.org/ShaoZeMing/laravel-translate) 
+[![](https://img.shields.io/packagist/v/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/shaozeming/laravel-translate) 
+[![](https://img.shields.io/packagist/dt/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/stichoza/shaozeming/laravel-translate)
 
 ## Installing
 
