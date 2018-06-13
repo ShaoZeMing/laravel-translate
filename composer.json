@@ -17,24 +17,25 @@
             "email": "szm19920426@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            " ShaoZeMing\\LaravelTranslate\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaoZeMing\\LaravelTranslate\\Test\\": "./tests"
+        }
+    },
+
     "extra": {
         "laravel": {
             "providers": [
                 "ShaoZeMing\\LaravelTranslate\\TranslateServiceProvider"
             ],
-            "aliases": {
+            "alias": {
                 "Translate": "ShaoZeMing\\LaravelTranslate\\Facade\\Translate"
             }
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            " ShaoZeMing\\LaravelTranslate\\": "./src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ShaoZeMing\\LaravelTranslate\\Test\\": "./tests/"
         }
     },
     "minimum-stability":"dev"
