@@ -35,7 +35,7 @@ if you want to use facade mode, you can register a facade name what you want to 
 // config/app.php
 
     'aliases' => [
-        'translate' => ShaoZeMing\LaravelTranslate\Facade\Translate::class,   //This is default in laravel 5.5
+        'Translate' => ShaoZeMing\LaravelTranslate\Facade\Translate::class,   //This is default in laravel 5.5
     ],
 ```
 

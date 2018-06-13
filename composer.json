@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            " ShaoZeMing\\LaravelTranslate\\": "./src"
+            "ShaoZeMing\\LaravelTranslate\\": "./src"
         }
     },
     "autoload-dev": {
