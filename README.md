@@ -3,7 +3,7 @@
 ---
 [![](https://travis-ci.org/ShaoZeMing/laravel-translate.svg?branch=master)](https://travis-ci.org/ShaoZeMing/laravel-translate) 
 [![](https://img.shields.io/packagist/v/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/shaozeming/laravel-translate) 
-[![](https://img.shields.io/packagist/dt/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/stichoza/shaozeming/laravel-translate)
+[![](https://img.shields.io/packagist/dt/ShaoZeMing/laravel-translate.svg)](https://packagist.org/packages/shaozeming/laravel-translate)
 
 ## Installing
 
