@@ -33,7 +33,7 @@
             "providers": [
                 "ShaoZeMing\\LaravelTranslate\\TranslateServiceProvider"
             ],
-            "alias": {
+            "aliases": {
                 "Translate": "ShaoZeMing\\LaravelTranslate\\Facade\\Translate"
             }
         }
