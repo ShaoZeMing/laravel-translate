@@ -1,21 +1,21 @@
 <?php
 
-namespace ShaoZeMing\LaravelTranslate\Facade;
+namespace ShaoZeMing\LaravelCrypt\Facade;
 
 
 
 use Illuminate\Support\Facades\Facade;
-use ShaoZeMing\Translate\TranslateService;
+use ShaoZeMing\Crypt\CryptService;
 
 
 /**
  * Class Facade
  * @package Shaozeming\GeTui
  */
-class Translate extends Facade
+class Crypt extends Facade
 {
     public static function getFacadeAccessor()
     {
-        return TranslateService::class;
+        return CryptService::class;
     }
 }

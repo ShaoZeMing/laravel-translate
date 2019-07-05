@@ -1,10 +1,10 @@
 {
-    "name": "shaozeming/laravel-translate",
-    "description": "一个集成百度翻译，有道翻译，Google翻译的PHP composer package  for laravel5.* and lumen",
+    "name": "shaozeming/laravel-crypt",
+    "description": "一个签名/验签，加密解密的laravel/lumen包",
     "type": "library",
     "require": {
         "laravel/framework": "~5.0",
-        "shaozeming/translate": "^1.0"
+        "shaozeming/crypt": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.3",
@@ -19,22 +19,22 @@
     ],
     "autoload": {
         "psr-4": {
-            "ShaoZeMing\\LaravelTranslate\\": "./src"
+            "ShaoZeMing\\LaravelCrypt\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ShaoZeMing\\LaravelTranslate\\Test\\": "./tests"
+            "ShaoZeMing\\LaravelCrypt\\Test\\": "./tests"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "ShaoZeMing\\LaravelTranslate\\TranslateServiceProvider"
+                "ShaoZeMing\\LaravelCrypt\\CryptServiceProvider"
             ],
             "aliases": {
-                "Translate": "ShaoZeMing\\LaravelTranslate\\Facade\\Translate"
+                "MingCrypt": "ShaoZeMing\\LaravelCrypt\\Facade\\Crypt"
             }
         }
     },
