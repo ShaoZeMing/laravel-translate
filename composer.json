@@ -3,7 +3,7 @@
     "description": "一个集成百度翻译，有道翻译，Google翻译的PHP composer package  for laravel5.* and lumen",
     "type": "library",
     "require": {
-        "laravel/framework": "~5.0",
+        "illuminate/container": "^5.1",
         "shaozeming/translate": "^1.0"
     },
     "require-dev": {
